@@ -33,3 +33,31 @@ html {
 	border: 1px solid rgba(225, 225, 225, 0.45);
 	border-radius: 20px;
 }
+
+.info-pill {
+	position: relative;
+	text-align: center;
+	height: 35px;
+	flex-shrink: 0;
+	font-size: 10px;
+	font-weight: 400;
+	background-color: #f8f8f6;
+	padding: 10px 16px;
+}
+
+.info-pill-text {
+	text-transform: uppercase;
+}
+
+.border {
+	border: 1px solid #e1e1e1;
+	border-radius: 100px;
+}
+
+.subtitle {
+	align-self: stretch;
+	font-size: 44px;
+	font-weight: 500;
+	line-height: 1.318;
+	text-align: center;
+}
