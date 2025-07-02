@@ -41,7 +41,8 @@ html {
 	flex-shrink: 0;
 	font-size: 10px;
 	font-weight: 400;
-	background-color: #f8f8f6;
+	backdrop-filter: blur(17px);
+	background-color: rgba(248, 248, 246, 0.45);
 	padding: 10px 16px;
 }
 
