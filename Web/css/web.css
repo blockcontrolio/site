@@ -1,11 +1,10 @@
 .web {
 	container: web / inline-size;
-	position: relative;
-	height: 6373px;
+	height: 100dvh;
 	color: #1d1f13;
 	letter-spacing: 0;
 	background-color: #fff;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .web-circle {
@@ -16,10 +15,6 @@
 	max-width: 632px;
 	border-radius: 50%;
 }
-
-
-
-/* card-a */
 
 .link-pill {
 	display: flex;
@@ -46,10 +41,6 @@
 .card-svg {
 	height: 100%;
 }
-/* end card-a*/
-
-
-/* column-a */
 
 .column-a {
 	display: flex;
@@ -69,12 +60,6 @@
 	font-size: 20px;
 	font-weight: 400;
 }
-/* end column-a*/
-
-
-
-
-/* column-b */
 
 .column-b {
 	display: flex;
@@ -82,18 +67,12 @@
 	align-items: center;
 	gap: 24px;
 }
-/* end column-b*/
-
 
 .global {
 	width: 50px;
 	flex-shrink: 0;
 	aspect-ratio: 1 / 1;
 }
-
-
-
-/* column-c */
 
 .column-c {
 	display: flex;
@@ -108,12 +87,6 @@
 	font-weight: 600;
 	line-height: 1.4;
 }
-/* end column-c*/
-
-
-
-
-/* column-d */
 
 .column-d {
 	display: flex;
@@ -121,10 +94,6 @@
 	gap: 16px;
 	font-weight: 400;
 }
-
-
-
-/* column-e */
 
 .column-e {
 	display: flex;
@@ -142,14 +111,6 @@
 	font-size: 14px;
 	line-height: 1.714;
 }
-/* end column-e*/
-
-/* end column-d*/
-
-
-
-
-/* row-b */
 
 .row-b {
 	display: flex;
@@ -157,10 +118,6 @@
 	gap: 16px;
 	font-family: 'Manrope';
 }
-
-
-
-/* column-f */
 
 .column-f {
 	display: flex;
@@ -181,10 +138,6 @@
 	font-size: 14px;
 	font-weight: 500;
 }
-/* end column-f*/
-
-/* end row-b*/
-
 
 .web-pyhoo48-a {
 	position: absolute; top: 4990px; right: -197px; 
@@ -292,7 +245,7 @@
 }
 
 .top-navigation {
-	container: web-row1 / inline-size;
+	container: top-navigation / inline-size;
 	position: absolute; z-index: 9; top: 26px; left: 149px; right: 148px; 
 	backdrop-filter: blur(9px);
 	display: flex;
@@ -334,7 +287,7 @@
 }
 
 .main-block-1 {
-	container: web-col2 / inline-size;
+	container: main-block-1 / inline-size;
 	position: absolute; z-index: 11; top: 190px; left: 120px; right: 120px; 
 	display: flex;
 	flex-direction: column;
@@ -364,7 +317,7 @@
 }
 
 .main-block-2 {
-	container: web-row2 / inline-size;
+	container: main-block-2 / inline-size;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
@@ -408,11 +361,9 @@
 	font-weight: 400;
 	line-height: 1.5;
 }
-/* end card-b*/
-
 
 .features-block-3 {
-	container: web-col3 / inline-size;
+	container: features-block-3 / inline-size;
 	display: flex;
 	flex-direction: column;
 	gap: 100px;
@@ -421,11 +372,7 @@
 	padding: 0 92px;
 }
 
-
-
-/* row-a */
-
-.row-a {
+.web-row3 {
 	display: flex;
 	align-items: center;
 	gap: 37px;
@@ -437,7 +384,6 @@
 	flex-shrink: 0;
 	aspect-ratio: 1 / 1;
 }
-/* end row-a*/
 
 .web-icon {
 	width: 100%;
@@ -447,7 +393,7 @@
 }
 
 .comparison-block-4 {
-	container: web-col4 / inline-size;
+	container: comparison-block-4 / inline-size;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -456,6 +402,7 @@
 }
 
 .web-row4 {
+	container: web-row4 / inline-size;
 	display: flex;
 	align-items: center;
 	gap: 12px;
@@ -507,9 +454,6 @@
 	background: linear-gradient(128deg, #04e4ef 0%, #4fff90 99%) top left / auto auto no-repeat;
 }
 
-/* end card-c*/
-
-
 .web-col-left {
 	width: 81%;
 	max-width: 300px;
@@ -533,7 +477,7 @@
 }
 
 .solutions-block-5 {
-	container: web-col5 / inline-size;
+	container: solutions-block-5 / inline-size;
 	display: flex;
 	flex-direction: column;
 	gap: 60px;
@@ -541,6 +485,7 @@
 
 
 .web-row5 {
+	container: web-row5 / inline-size;
 	height: 591px;
 	display: flex;
 	align-items: center;
@@ -562,7 +507,7 @@
 }
 
 .global-reach-block-6 {
-	container: web-col6 / inline-size;
+	container: global-reach-block-6 / inline-size;
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
@@ -593,7 +538,6 @@
 }
 
 .footer-center {
-	container: web-row1 / inline-size;
 	position: relative;
 	backdrop-filter: blur(2px);
 	display: flex;
@@ -697,7 +641,7 @@
 
 /* container queries (flex rows) */
 
-@container web (width < 1149px) {
+@container web (width < 1015px) {
 	.top-navigation {
 		flex-direction: column;
 		align-items: center;
@@ -719,46 +663,39 @@
 	}
 }
 
-@container web-col2 (width < 831px) {
-	.main-block-2 {
+@container main-block-2 (width < 831px) {
+	.card-block-2 {
 		flex-direction: column;
 		align-items: center;
 		gap: 22px;
 	}
-	.main-block-2 > * {
+	.card-block-2 > * {
 		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
 	}
 }
 
-@container web-row2 (width < 499px) {
+@container main-block-2 (width < 499px) {
 	.card-block-2 {
 		flex-direction: column;
 		gap: 18px;
 	}
 }
 
-@container web-col3 (width < 1015px) {
-	.row-a {
+@container features-block-3 (width < 1015px) {
+	.web-row3 {
 		flex-direction: column;
 		gap: 35px;
 	}
 }
 
-@container web-col3 (width < 1015px) {
-	.web-row3 {
-		flex-direction: column;
-		gap: 49px;
-	}
-}
-
-@container web-col4 (width < 1199px) {
+@container comparison-block-4 (width < 1015px) {
 	.web-row4 {
 		flex-direction: column;
 		gap: 38px;
 	}
 }
 
-@container web-col5 (width < 1199px) {
+@container solutions-block-5 (width < 1015px) {
 	.web-row5 {
 		height: unset;
 		flex-direction: column;
