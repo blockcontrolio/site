@@ -21,7 +21,7 @@
 
 /* card-a */
 
-.web-col-bottom {
+.link-pill {
 	display: flex;
 	align-items: center;
 	gap: 16px;
@@ -324,11 +324,6 @@
 	padding: 10px 16px;
 }
 
-.card-right1 {
-	font-family: 'unset';
-	background-image: linear-gradient(128deg, #04e4ef 0%, #4fff90 99%);
-}
-
 .web-img {
 	position: absolute; z-index: 10; top: 14px; left: -154px; 
 	rotate: -18deg;
@@ -366,11 +361,6 @@
 	margin: 0 12px;
 	align-self: stretch;
 	text-align: center;
-}
-
-.row-bottom1 {
-	font-weight: 500;
-	background-image: linear-gradient(128deg, #04e4ef 0%, #4fff90 100%);
 }
 
 .web-row2 {
@@ -702,22 +692,19 @@
 }
 
 .web-subtitle-ready-to {
-	position: relative; z-index: 3;
 	font-size: 44px;
 	line-height: 1.318;
 }
 
 .web-text-join-the-future {
-	position: relative; z-index: 4;
-	margin: 0 103px;
+	margin: 4px 103px;
 }
 
-.row-bottom6 {
-	position: relative; z-index: 5;
-	margin-top: 4px;
+.explore-solution {
 	align-self: center;
 	color: #1d1f13;
-	font-size: unset;
+	font-weight: 500;
+	line-height: normal;
 	background-image: linear-gradient(128deg, #04e4ef 0%, #4fff90 99%);
 }
 
