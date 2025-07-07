@@ -1,10 +1,10 @@
 .mob {
 	position: relative;
-	height: 8855px;
+	height: 100dvh;
 	font-family: 'Poppins';
 	letter-spacing: 0px;
 	background-color: #fff;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .mob-ellipse {
@@ -240,7 +240,7 @@
 
 .mob-col1 {
 	position: absolute; z-index: 7; top: 290px; left: -185px; right: -185px; 
-	display: flex;
+	display: none;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 37px;
@@ -815,9 +815,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 20px 0;
 }
 
-.mob-graphic {
-	width: 64px; height: 24px;
-	flex-shrink: 0;
+.social {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 64px;
+}
+
+.social-icon {
+	width: 24px;
+	height: 24px;
 }
