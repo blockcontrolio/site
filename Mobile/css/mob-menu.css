@@ -1,7 +1,7 @@
 .mob-menu {
 	position: relative;
 	height: 812px;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	background-color: #fff;
 	overflow: hidden;
 }
@@ -12,6 +12,7 @@
 	margin: 0 auto;
 	width: 90%; height: 478px;
 	max-width: 682px;
+	display: none;
 }
 
 .mob-menu-circle {
@@ -33,7 +34,11 @@
 }
 
 .mob-menu-col1 {
-	position: absolute; top: 26px; bottom: 37px; left: 20px; right: 20px;
+	position: absolute;
+	top: 26px;
+	bottom: 37px;
+	left: 20px;
+	right: 20px;
 	display: flex;
 	flex-direction: column;
 	gap: 80px;
@@ -79,7 +84,7 @@
 	flex-grow: 1;
 	align-self: stretch;
 	font-size: 18px;
-	padding: 10px 16px 240px 16px;
+	padding: 10px 16px 10px 16px;
 }
 
 .card-bottom {

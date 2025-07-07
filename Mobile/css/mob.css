@@ -2,7 +2,7 @@
 	position: relative;
 	height: 100dvh;
 	font-family: 'Poppins';
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	background-color: #fff;
 	overflow: auto;
 }
@@ -239,7 +239,11 @@
 }
 
 .mob-col1 {
-	position: absolute; z-index: 7; top: 290px; left: -185px; right: -185px; 
+	position: absolute;
+	z-index: 7;
+	top: 290px;
+	left: -185px;
+	right: -185px;
 	display: none;
 	flex-direction: column;
 	align-items: flex-start;
@@ -328,14 +332,21 @@
 }
 
 .mob-img {
-	position: absolute; z-index: 8; top: 41px; left: -170px; 
+	position: absolute;
+	z-index: 8;
+	top: 41px;
+	left: -170px;
 	rotate: -18deg;
 	transform-origin: 50% 50%;
 	width: 306px;
 }
 
 .mob-row1 {
-	position: absolute; z-index: 9; top: 26px; left: 20px; right: 20px; 
+	position: absolute;
+	z-index: 9;
+	top: 26px;
+	left: 20px;
+	right: 20px;
 	backdrop-filter: blur(9px);
 	display: flex;
 	align-items: center;
@@ -352,23 +363,17 @@
 }
 
 .mob-menu2 {
-	width: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 4px;
-	flex-shrink: 0;
-}
-
-.mob-line {
-	width: 100%; height: 0;
-	flex-shrink: 0;
-	border-top: 2px solid #04e4ef;
-	border-radius: 1.5px;
 }
 
 .mob-col2 {
-	position: absolute; z-index: 10; top: 154px; left: 20px; right: 19px; 
+	position: absolute;
+	z-index: 10;
+	top: 154px;
+	left: 20px;
+	right: 20px;
 	display: flex;
 	flex-direction: column;
 	gap: 80px;
