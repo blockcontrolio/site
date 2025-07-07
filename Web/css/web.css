@@ -414,6 +414,7 @@
 	container: web-row4 / inline-size;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 12px;
 	color: #000;
 	font-size: 18px;
@@ -498,6 +499,7 @@
 	height: 591px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 24px;
 	flex-shrink: 0;
 	line-height: normal;
