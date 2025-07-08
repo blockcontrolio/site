@@ -1,10 +1,8 @@
 .mob {
 	position: relative;
-	height: 100dvh;
 	font-family: 'Poppins';
 	letter-spacing: 0;
 	background-color: #fff;
-	overflow: auto;
 }
 
 .mob-ellipse {
@@ -769,7 +767,7 @@
 .row1 {
 	position: absolute; z-index: 5; top: 383px; left: 50%; 
 	translate: -50% 0;
-	width: max-content;
+	/*width: max-content;*/
 	color: #1d1f13;
 	font-size: unset;
 	text-align: left;

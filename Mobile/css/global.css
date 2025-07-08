@@ -82,9 +82,12 @@
 	--margin-md: 32px;
 }
 
-html {
+html, body {
 	height: 100%;
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
+	overflow-x: hidden;
 }
 
 #menuContainer {
@@ -124,7 +127,6 @@ html {
 .logo-symbol {
 	rotate: 90deg;
 	transform-origin: 50% 50%;
-	margin: -2px 0;
 	width: 32px;
 	flex-shrink: 0;
 	aspect-ratio: 13107363 / 15021857;

@@ -1,10 +1,8 @@
 .web {
 	container: web / inline-size;
-	height: 100dvh;
 	color: #1d1f13;
 	letter-spacing: 0;
 	background-color: #fff;
-	overflow: auto;
 }
 
 .web-circle {
