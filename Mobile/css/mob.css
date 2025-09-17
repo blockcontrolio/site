@@ -500,6 +500,12 @@
 	aspect-ratio: 1 / 1;
 }
 
+.partner-icon {
+	width: 120px;
+	flex-shrink: 0;
+	aspect-ratio: 1 / 1;
+}
+
 .column-col-bottom {
 	display: flex;
 	flex-direction: column;

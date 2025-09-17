@@ -350,6 +350,12 @@
 	aspect-ratio: 1 / 1;
 }
 
+.partners-icon {
+	width: 240px;
+	flex-shrink: 0;
+	aspect-ratio: 1 / 1;
+}
+
 .card-col {
 	display: flex;
 	flex-direction: column;
@@ -524,6 +530,13 @@
 
 .web-subtitle-tailored {
 	align-self: unset;
+}
+
+.partners-block {
+	container: partners-block / inline-size;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
 }
 
 .web-row-bottom {
